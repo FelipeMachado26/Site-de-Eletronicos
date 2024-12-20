@@ -1,0 +1,20 @@
+@import url(../components/minicart.css);
+header{
+    background-color: var(--purple-900);
+    color:var(--white-900);
+
+}
+
+.header__container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.header__link{
+    color:var(--white-900);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+

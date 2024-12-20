@@ -1,0 +1,67 @@
+.minicart_summary{
+    /*faz que o estilo  do item fique nulo */
+    list-style: none;
+    cursor: pointer;
+
+}
+
+.minicart{
+    /*indica que o tamaho o detail seja realtivo ao tamanho da pagina */
+    position: relative;
+}
+
+
+.minicart__main{
+    /*Na position absolute o item sobrepoe aonde ele sera selecionado*/
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 61px;
+
+    background-color: white;
+    color: black;
+    width: 350px;
+    padding-top: 36px;
+    border-radius: 0px 0px 8px 8px;
+    border: 1px solid #cccccc;
+    
+}
+
+.minicart_title{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    font-weight: 700;
+
+}
+
+.minicart__item {
+    display: flex;
+    align-items: center;
+    gap: 16px; 
+    
+    border-top:1px solid #cccccc;
+    padding: 16px;   
+}
+
+
+
+.minicart__item__preco{
+    font-weight: 700;
+}
+
+.minicart__footer{
+    background-color: var(--purple-900);
+    color: var(--white-900);
+    padding: 28px;
+    border-radius: var(--border-radius)
+}
+
+.minicart__footer__item{
+
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 16px;
+    font-weight: 700;
+}
