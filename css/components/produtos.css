@@ -1,0 +1,45 @@
+
+
+.products{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+} 
+
+
+.products__item{
+    background-color: #c8a1e6;
+    border-radius: 8px;
+    padding: 24px;
+    width: calc(33% - 16px);
+    max-width: 300px;
+
+}
+
+.products__item__image{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.products__item__name{
+    margin-bottom: 8px;
+}
+
+.products__item__preco{
+    color: #280e8e;
+    font-weight: 700 ;
+    margin-bottom: 40px;
+}
+
+
+@media (max-width:576px){
+
+    .products__item{
+       
+        width:100%;
+        text-align: center;
+        
+    }
+}

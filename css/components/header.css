@@ -1,7 +1,7 @@
 @import url(../components/minicart.css);
 header{
-    background-color: var(--purple-900);
-    color:var(--white-900);
+    background-color:#8500ee;
+    color:#ffffff;
 
 }
 
@@ -17,4 +17,13 @@ align-items: center;
     text-transform: uppercase;
     font-weight: 600;
 }
+
+@media (max-width: 768px){
+    .header__container{
+        flex-wrap: wrap; /* quando nao couver na linha o objeto vai para a linha de baixo*/
+        
+    }
+}
+
+
 

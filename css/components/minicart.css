@@ -65,3 +65,23 @@
     padding: 16px;
     font-weight: 700;
 }
+
+@media (max-width: 768px){
+    .minicart__main, .minicart{
+        width: 100%;
+    }
+    .minicart_summary{
+        text-align: right;}  /*faz que o texto fique alinhado a direita */
+
+        .minicart__item,.minicart__footer__item{
+            flex-wrap: wrap; /*controlar como os itens dentro de um contêiner flexível se comportam quando não há espaço suficiente em uma única linha ou coluna.*/
+            /*wrap: Com este valor, os itens que não cabem na linha atual são movidos para a próxima linha*/
+
+            justify-content: center; /*centraliza os itens*/
+
+            gap: 16px; /*definir o espaçamento entre os itens em um contêiner flexível*/
+        }
+
+
+
+}
